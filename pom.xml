@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>tg.ucaouut.projet1.legede</groupId>
+    <artifactId>legede</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>legede</name>
+    <modules>
+        <module>legede-client</module>
+        <module>legede-server</module>
+        <module>legede-service</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>2.0.1</version>
+                <configuration>
+                    <locales>fr,en</locales>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <developers>
+        <developer>
+            <id>Centonni</id>
+            <name>Serge Innocent</name>
+            <email>k.innocent@gmail.com</email>
+            <url>http://ucao-uut.tg</url>
+            <roles>
+                <role>Manager</role>
+                <role>Développeur</role>
+            </roles>
+            <timezone>1</timezone>
+        </developer>
+    </developers>
+    <contributors>
+        <contributor>
+            <name>John Smith</name>
+            <email>john@smith.com</email>
+            <url>http://john.smith.com</url>
+            <organization>Smith Corporation</organization>
+            <organizationUrl>http://smith.com</organizationUrl>
+            <roles>
+                <role>Testeur</role>
+            </roles>
+            <timezone>-5</timezone>
+        </contributor>
+    </contributors>
+
+</project>
